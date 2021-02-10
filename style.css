@@ -1,0 +1,143 @@
+.heads{
+    background-image: url("images/background.jpg") ; 
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: dashed;
+    
+}
+
+.header{
+  font: italic small-caps bold 12px/30px Georgia, serif;
+  font-weight: bold;
+  color:darkred;
+ text-decoration: underline overline;
+ text-decoration-style: wavy;
+  display: flex; 
+   justify-content: center;
+   
+}
+
+.header2{
+    font:  15px Arial, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+   text-decoration: underline ;
+   text-decoration-style: dashed;  
+}
+
+.header3{
+    font:  15px Arial, sans-serif;
+    font-weight: bold;
+    color: darkgoldenrod;
+   text-decoration: overline ;
+   text-decoration-style: solid;  
+}
+
+.grid{
+    background-image: url("images/ba.jpg") ;  
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: dotted;
+  
+  border-width:medium;
+  border-color: black;
+}
+
+.item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  background-color: lightgreen;  
+  border: double;
+  border-radius: 8px;
+  border-width:thick;
+  border-color: darkblue; 
+  position: relative; 
+}
+
+.item2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  background-color: lightblue;  
+  border: double;
+  border-radius: 8px;
+  border-width:thick;
+  border-color: darkgreen;
+  position: relative;  
+}
+
+.item3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  background-color: lightsalmon; 
+  border: double;
+  border-radius: 8px;
+  border-width:thick;
+  border-color: darkred;
+  position: relative; 
+}
+
+.item h5{
+  background-color: lightgreen;
+  font-style: italic; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+
+
+
+.item2 h5{
+    background-color: lightblue;  
+    font-style: italic; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+  }
+
+.item3 h5{
+    background-color: lightsalmon; 
+    font-style: italic;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+  }
+  
+
+.item:hover img{
+  transform: scale(1.02);
+  opacity: 0.7;
+}
+
+.item:hover h5{
+    transform: scale(1.02);
+    opacity: 1;
+  }
+
+  .item2:hover h5{
+    transform: scale(1.02);
+    opacity: 1;
+  }
+  
+.item3:hover h5{
+    transform: scale(1.02);
+    opacity: 1;
+  }  
+
+.item2:hover img{
+    transform: scale(1.02);
+    opacity: 0.7;
+    
+  }
+
+  .item3:hover img{
+    transform: scale(1.02);
+    opacity: 0.4;
+    
+  }  
